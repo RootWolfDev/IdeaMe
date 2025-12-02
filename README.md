@@ -11,4 +11,7 @@ This project was created using the well-known web page language [HTML](https://f
 I also used the [FormSubmit](https://formsubmit.co/) service.
 ___
 What's special about this project isn't the programming method,it's simple. __What distinguishes this project is the strength of the idea, and that's the basis upon which it was created.__
+___
 [IdeaMe](https://rootwolfdev.github.io/IdeaMe/)
+___
+### created on 02/12/2025 at 20:43
