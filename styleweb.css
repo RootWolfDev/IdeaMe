@@ -1,0 +1,93 @@
+
+header {
+   background-color: #f5c542ff;
+text-align: center;
+}
+body{text-align: center; }
+.creatur{text-align: right;  font-family: 'Caveat', cursive;  }
+a{color: #5952d4;   text-decoration: none;}
+h2{    font-family: 'Caveat', cursive;  color: darkgreen; text-align: left; margin-left: 15%;}
+h1{
+    font-family: 'Caveat', cursive;
+text-align: center;
+    margin-bottom: 20px;
+}
+form {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Inputs & Textarea */
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px 12px; 
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border: 1.5px solid #ccc;
+    font-size: 15px;
+    transition: 0.3s ease;
+    resize: vertical;
+    box-sizing: border-box; 
+}
+
+/* Focus effect */
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 6px rgba(108,99,255,0.3);
+    outline: none;
+}
+
+/* Placeholder styling */
+input[type="text"]::placeholder, input[type="email"]::placeholder, textarea::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+/* Special Email Field Styling */
+input[type="email"] {
+    border-color: #6c63ff;
+    background-image: url("data:image/svg+xml,%3Csvg fill='gray' viewBox='0 0 24 24' width='20' height='20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 13.065L1.5 6.5V18a2 2 0 0 0 2 2h17a2 2 0 0 0 2-2V6.5l-10.5 6.565zM21.5 4h-19L12 10.935 21.5 4z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 12px center;
+    padding-left: 12px; 
+    padding-left: calc(12px + 20px + 8px); 
+}
+
+/* Email hover */
+input[type="email"]:hover {
+    border-color: #5952d4;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: #6c63ff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #5952d4;
+}
+
+
+
+
